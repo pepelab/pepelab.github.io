@@ -1,23 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     margin: 0;
     font-family: 'Montserrat', sans-serif;
 }
 
+.container {
+    max-width: 1110px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.none {
+    display: none !important;
+}
+
+
+
+/*========== HEADER ==========*/
+
 .header {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: center;    
     align-items: center;
 
     width: 100%;
     height: 100vh;
 
-    background-color: #558983;
+    background-color: black;
     background-image: url("/img/header-bg.jpg");
     background-size: cover;
     background-position: center;
 }
-
 
 .header-title {
     position: relative;
@@ -29,7 +46,6 @@ body {
     text-align: center;
     color: #FFFFFF;
 }
-
 
 .header-subtitle {
     position: relative;
@@ -43,7 +59,6 @@ body {
     color: #FFFFFF;
 }
 
-
 .header-arrow {
     width: 48px;
     height: 48px;
@@ -53,7 +68,6 @@ body {
     transform: translate(-50%, 0);
 }
 
-
 #video {
     position: fixed;
     right: 0;
@@ -61,3 +75,63 @@ body {
     min-width: 100%;
     min-height: 100%;
 }
+
+
+
+/*========== PORTFOLIO ==========*/
+
+.portfolio {
+    padding-top: 80px;
+    padding-bottom: 115px;
+}
+
+.portfolio-header {
+    margin: 0;
+    margin-bottom: 70px;
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 130%;
+    text-align: center;
+    color: #000000;
+}
+
+.portfolio-cards-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+.card {
+    margin-bottom: 30px;
+    padding: 20px;
+    max-width: 540px;
+    background-color: white;
+    box-shadow: 0px 10px 40px rgba(126, 155, 189, 0.35);
+}
+
+.card:last-child, .card:nth-last-child(2) {
+    margin-bottom: 0;
+}
+
+.card-img {
+    margin-bottom: 20px;
+}
+
+.card-title {
+    margin: 0;
+    margin-bottom: 13px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 130%;
+    color: #000000;
+}
+
+.card p {
+    margin: 0;
+    font-size: 16px;
+    line-height: 130%;
+    color: #000000;
+}
+
+
