@@ -135,3 +135,82 @@ body {
 }
 
 
+
+
+/*========== FOOTER ==========*/
+
+.footer {
+    padding-top: 45px;
+    padding-bottom: 130px;
+    background-color: #1E4776;
+    color: white;
+}
+
+.footer-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer-col {
+    max-width: 350px;
+    flex-grow: 1;
+}
+
+.footer-copyright {
+    color: #7E9EC9;
+    line-height: 1.3;
+}
+
+.footer-copyright-name {
+    font-size: 28px;    
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.footer-copyright p {
+    margin: 0;
+    margin-bottom: 15px;
+    font-size: 16px;
+    font-weight: 600;   
+}
+
+
+.footer-icons p {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.3;
+}
+
+.footer-icons-row {
+    display: flex;
+    align-items: center;
+}
+
+.footer-icons-row > * + *{
+    margin-left: 30px;
+}
+
+.footer-button {
+    display: inline-block;
+    height: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+
+    border: 3px solid #FFFFFF;
+    border-radius: 50px;
+
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 44px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.footer-contacts p {
+    margin: 15px 0;
+    font-size: 15px;
+    line-height: 1.3;
+    color: #7E9EC9;
+}
