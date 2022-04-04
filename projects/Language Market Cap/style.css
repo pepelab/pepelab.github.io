@@ -1,0 +1,42 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+body {
+    font-family: 'Circular Std';
+    font-weight: 500;
+    font-style: normal;
+    color: black;
+    height: 100vh;
+}
+
+
+    
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;    
+    align-items: center;
+
+    width: 100%;
+    height: 100vh;
+}
+
+.header h1 {
+    font-size: 40px;
+    z-index: 10;
+}
+.header p {
+    position: absolute;
+    bottom: 25px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    font-size: 17px;
+}
+.header p a {
+    color: black
+}
+.header p a:hover{
+    color: blue
+}
