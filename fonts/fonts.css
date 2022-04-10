@@ -1,0 +1,41 @@
+@font-face{
+    font-family: "PPNeueMontreal-Bold";
+    src: url("/fonts/PPNeueMontreal-Bold.otf") format("truetype");
+    font-style: normal; 
+    font-weight: normal; 
+}
+
+@font-face{
+    font-family: "PPNeueMontreal-Book";
+    src: url("/fonts/PPNeueMontreal-Book.otf") format("truetype");
+    font-style: normal; 
+    font-weight: normal; 
+}
+
+@font-face {
+    font-family: "PPNeueMontreal-Thin";  
+    src: url("/fonts/PPNeueMontreal-Thin.otf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal;
+}
+     
+@font-face{
+font-family: "PPNeueMontreal-SemiBolditalic";
+src: url("/fonts/PPNeueMontreal-SemiBolditalic.otf") format("truetype");
+font-style: normal; 
+font-weight: normal; 
+}
+
+@font-face{
+    font-family: "PPNeueMontreal-Medium";
+    src: url("/fonts/PPNeueMontreal-Medium.otf") format("truetype");
+    font-style: normal; 
+    font-weight: normal; 
+}
+
+@font-face{
+    font-family: "PPNeueMontreal-Italic";
+    src: url("/fonts/PPNeueMontreal-Italic.otf") format("truetype");
+    font-style: normal; 
+    font-weight: normal; 
+}
