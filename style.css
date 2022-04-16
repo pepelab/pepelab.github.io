@@ -1,112 +1,49 @@
 * {
-    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    border: 0;
 }
 body {
-    margin: 0;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    color: black
-    /* background-color: #1c1c1c; */
-}
-a {
-    color: black
-}
-p::selection {
-    background: #c0e5f4;
+    font-family: 'PPNeueMontreal-Book';
+    font-weight: 500;
+    font-style: normal;
+    color: black;
+    height: 100vh;
 }
 
-
-
-body::-webkit-scrollbar {
-  width: 0.6em;
-}
-body::-webkit-scrollbar-track {
-  box-shadow:  0 0 6px rgba(0, 0, 0, 0.3);
-}
-body::-webkit-scrollbar-thumb {
-  background-color: darkgrey;
-}
-
-
-
-.navigation {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    width: 100%;
-    height: 45px;
-}
-.navigation a {
-    padding-left: 10px; 
-    font-size: 14px; 
-    text-decoration: none;
-}
-
-
-
+    
 .header {
     display: flex;
     flex-direction: column;
     justify-content: center;    
     align-items: center;
-    width: 100%;
-    height: 250px;
-    background-color: lightskyblue;
-    /* background-image: url("/img/img1.jpg"); */
-    background-size:cover;
-    background-position: center;
-}
-.header-title {
-    font-size: 40px; 
-    padding-top: 50px;
-}
-
-
-
-.container {
-    max-width: 850px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 24px;
-    padding-right: 24px;
-}
-.container p {
-    font-size: 18px;
-    padding: 0px;
-}
-
-
-
-#grid { 
-    display: grid;
-    grid-template-rows: 1fr 1fr;
-    grid-template-columns: 1fr 1fr;
-    grid-column-gap: 15px;
-    grid-row-gap: 20px;
-}
-#grid a {
-    font-size: 18px;
-    text-decoration: none;
-}
     
-
-
-table {
-    border-collapse: collapse;
-}
-table, th, td {
-    border: 1px solid black;
-    padding: 5px;
+    width: 100%;
+    height: 100vh;
 }
 
-.blockquote {
-    border-left: 3px solid currentcolor; 
-    padding-left: 14px; 
-    padding-right: 14px; 
+.header h1 {
+    font-size: 40px;
+    text-align:center;
+}
+.header p {
+    position: absolute;
+    bottom: 25px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    font-size: 17px;
+}
+.header a {
+    color: black;
+    outline: none;
+}
+.header a:hover{
+    color: blue;
 }
 
-ul {
-    font-size: 18px;
+h1::selection {
+    background: #fff2a8;
 }
-li {
-    margin-bottom: 5px;
+p::selection {
+    background: #fff2a8;
 }
